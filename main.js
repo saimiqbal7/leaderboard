@@ -21,12 +21,16 @@ const getData = async () => {
 };
 
 async function runScript() {
+
+  console.log("Started")
   const uri = 'mongodb+srv://saim:Stephcurry7$@submissions.twztlmx.mongodb.net/?retryWrites=true&w=majority';
   const client = new MongoClient(uri);
   await client.connect();
   const database = client.db('submissions');
   const currentLeaderboardCollection = database.collection('leaderboard');
   const allTimeLeaderboardCollection = database.collection('allTimeLeaderboard');
+
+
 
   const submissions = await getData();
 
