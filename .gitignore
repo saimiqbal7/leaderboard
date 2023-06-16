@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 
-leaderboard/node_modules
+leaderboard/node_modules/*
 leaderboard/.pnp
 leaderboard.pnp.js
 # testing
