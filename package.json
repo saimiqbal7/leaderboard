@@ -13,7 +13,9 @@
   "dependencies": {
     "@_koi/web3.js": "^0.0.6",
     "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
     "crypto-random-string": "^5.0.0",
-    "mongodb": "^5.6.0"
+    "mongodb": "^5.6.0",
+    "puppeteer": "^20.7.2"
   }
 }
