@@ -1,5 +1,5 @@
 import { MongoClient } from 'mongodb';
-import fs from 'fs'
+import fs from 'fs';
 
 async function queryUserFaucets() {
   const uri = 'mongodb+srv://bridgeuser:Gk4FPxxs8m5cNURc@cluster0.gizdv.mongodb.net/?retryWrites=true&w=majority';
@@ -111,15 +111,18 @@ async function queryUserFaucets() {
     const database = client.db('test');
     const collection = database.collection('userfaucets');
 
-    // Find documents with matching wallet addresses
     const query = { walletAddress: { $in: walletAddresses } };
     const documents = await collection.find(query).toArray();
     console.log('Matching documents:', documents);
 
-    // Save the information about the wallet addresses to a file or perform further operations
-    // Example: Writing the documents to a JSON file
+    const organizedData = {};
+    for (const address of walletAddresses) {
+      const matchingDocument = documents.find(doc => doc.walletAddress === address);
+      organizedData[address] = matchingDocument ? matchingDocument : null;
+    }
+
     const outputFilePath = './information.json';
-    const jsonData = JSON.stringify(documents);
+    const jsonData = JSON.stringify(organizedData, null, 2);
     fs.writeFileSync(outputFilePath, jsonData, 'utf8');
     console.log('Information saved to file:', outputFilePath);
   } catch (error) {
