@@ -1,5 +1,6 @@
 import { Connection, PublicKey } from '@_koi/web3.js';
 import bs58 from 'bs58';
+import fs from 'fs';
 
 const stakingKeyToPublicKey = async (stakingKey) => {
   try {
@@ -28,6 +29,10 @@ const getConfirmedTransaction = async (signature, connection) => {
 };
 
 const convertToString = (publicKey) => {
+  if (!publicKey) {
+    throw new Error('Invalid public key provided.');
+  }
+
   const hexString = publicKey._bn.toString('hex');
   return hexString;
 };
@@ -38,12 +43,38 @@ const convertToBase58 = (publicKeyString) => {
   return base58Key;
 };
 
-const getKey = async () => {
-  const publicKey = await stakingKeyToPublicKey('6AK3q7qCCC9mVyhQYZsjHseRM3tUG8LpZHA9os6QxSiZ');
-  const publicKeyString = convertToString(publicKey);
-  const base58Key = convertToBase58(publicKeyString);
-  console.log(base58Key);
+export const getKey = async (key) => {
+  try {
+    const publicKey = await stakingKeyToPublicKey(key);
+    const publicKeyString = convertToString(publicKey);
+    const base58Key = convertToBase58(publicKeyString);
+    return base58Key;
+  } catch (error) {
+    console.error('Error occurred while converting address to key:', error);
+    return '';
+  }
 };
 
-getKey();
+const convertKeysFromFile = async (filePath) => {
+  try {
+    const fileContent = fs.readFileSync(filePath, 'utf8');
+    const keysArray = JSON.parse(fileContent);
 
+    const convertedKeys = [];
+
+    for (let i = 0; i < keysArray.length; i++) {
+      const key = keysArray[i];
+      const convertedKey = await getKey(key);
+      convertedKeys.push(convertedKey);
+    }
+
+    console.log('Converted Keys:', convertedKeys);
+  } catch (error) {
+    console.error('Error occurred while converting keys from file:', error);
+  }
+};
+
+
+const filePath = './addresses.txt';
+
+convertKeysFromFile(filePath);

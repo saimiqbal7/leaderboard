@@ -1,27 +1,31 @@
 import { getMissingAddresses } from './noSubmissions.js';
+import { getKey } from './stakeToSystemSDK.js';
 
 let addresses = [];
+let keys = [];
 
 const fetchData = async () => {
   try {
     addresses = await getMissingAddresses();
-    // Call other functions that depend on the addresses here
-    function1();
-    function2();
+ 
+    await convertAddressesToKeys();
+
+    displayAddressesAndKeys();
   } catch (error) {
     console.error('Error occurred:', error);
   }
 };
 
-fetchData();
-
-// Example functions that depend on addresses
-const function1 = () => {
-  console.log('Function 1:', addresses);
+const convertAddressesToKeys = async () => {
+  for (let i = 0; i < 10; i++) {
+    const address = addresses[i];
+    const key = await getKey(address);
+    keys.push(key);
+  }
 };
 
-const function2 = () => {
-  console.log('Function 2:', addresses);
+const displayAddressesAndKeys = () => {
+  console.log('Addresses:', addresses);
+  console.log('Keys:', keys);
 };
 
-console.log("fin")
