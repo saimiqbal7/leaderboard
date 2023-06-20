@@ -1,0 +1,195 @@
+[
+  {
+    "emailAddress": "techmoneymedia.eth@gmail.com",
+    "walletAddress": "GuheVhQyxjFK32cUjaWKfww69QNnJw6NCPuctjVX8Lgt"
+  },
+  {
+    "emailAddress": "mrjeffreyalbus@gmail.com",
+    "walletAddress": "He1q6XRboRGFM9nHcweURwSrnpuw3K7nytXyX3RZm5od"
+  },
+  {
+    "emailAddress": "justin@int3face.io",
+    "walletAddress": "DgJcP5gpxzHWe3Dd4K1UGPR3ytLNs76pKrxF6bZkLZdL"
+  },
+  {
+    "emailAddress": "superkeryaG@yandex.ru",
+    "walletAddress": "2cidVmMEpfo5ZpkeTvxUUFC2Bv9zHWjbbk9y4qdCG41e"
+  },
+  {
+    "emailAddress": "honeymoney.eth@gmail.com",
+    "walletAddress": "25kaXe6iTUhvHjSyiScS8zWHasiWt8dZxvT7MLxJRLWH"
+  },
+  {
+    "walletAddress": "GL6ZCZgT6TCJpvJFbTt5iDYTGK8PbbCAbbF4Wp7ad9C8"
+  },
+  {
+    "emailAddress": "mbadilla@moddtech.com",
+    "walletAddress": "6yu5ucpYGeRv2rspjq8dS7gLLpruTrdueLZmdi7YVV6U"
+  },
+  {
+    "emailAddress": "kayla@openkoi.com",
+    "walletAddress": "8pN7eGD8zggRtMZ6Em6o6kxmVTWLTpcH24kqTDi2nRdJ"
+  },
+  {
+    "emailAddress": "hromchenkoyalta@gmail.com",
+    "walletAddress": "BP84smSsFwmsk3aE7Rpz42MA7ttJvCUTyM7jBa7ZMkSw"
+  },
+  {
+    "emailAddress": "smoothcode@gmail.com",
+    "walletAddress": "8V6s4sdM7tmcgvXTbnp9324NXigTyPRu95mjtHCK1f2o"
+  },
+  {
+    "emailAddress": "danzeno@mit.edu",
+    "walletAddress": "Eiru29juDRLyKU9yx4bdXetxrJfSJBCwwAB12kXY5Wyr"
+  },
+  {
+    "emailAddress": "michael@txlabs.org",
+    "walletAddress": "Chyc5fRqo7ECqhEuNC4fUPrbVemCkAXdAcS8YZrBV2iH"
+  },
+  {
+    "emailAddress": "ositaegeonu@gmail.com",
+    "walletAddress": "FA4pwaSRpK7kFU4eDDMib5aNwEQpLbS5i15n3gYc9q1m"
+  },
+  {
+    "emailAddress": "Bobingie117@gmail.com",
+    "walletAddress": "JCfCVNbqWgogEjiHSQ9Z1VyC2A1kMxRNKQhtZVpJmNs1"
+  },
+  {
+    "walletAddress": "FaRDLKTcYtDwCzei2CXhfR8sa94WFZSFDkppJ1EuQrBb"
+  },
+  {
+    "emailAddress": "ryssroad@gmail.com",
+    "walletAddress": "C44QQfpLcYJvbMy4VS6Kgp8yfamapUcpMMtjpRkb8dMQ"
+  },
+  {
+    "emailAddress": "umeshsiddarth@gmail.com",
+    "walletAddress": "7v5ypMpgMZ67gachc27wAAS9ThGFtquETxxrG6n2CswK"
+  },
+  {
+    "emailAddress": "locmxse60602@gmail.com",
+    "walletAddress": "B13MziHpKRA9yGCZWGdvvUJhCpYWWhxYDc6X2LsLcwXW"
+  },
+  {
+    "emailAddress": "couches-oar.0c@icloud.com",
+    "walletAddress": "FxkvpbZ99z5AErxPGPUHSG5NXPJdxr3FqAYviHxkeu28"
+  },
+  {
+    "emailAddress": "tugrik77@gmail.com",
+    "walletAddress": "8hboKTFg3VUsNqg8Z9XLUxyT3rCXAPvV1PW8kFBFpaNj"
+  },
+  {
+    "emailAddress": "paco@thebullyingbuddy.com",
+    "walletAddress": "EvSLsStaKDcZieAsbcD9stYqc3GM986n1eShVWARyDZK"
+  },
+  {
+    "emailAddress": "andrewpoitiers@gmail.com",
+    "walletAddress": "A8ECNYDC2NuLZD1WgkHayUBjSD4hKfKEtDpkrdgtzt5U"
+  },
+  {
+    "emailAddress": "walkthroughwonderai@gmail.com",
+    "walletAddress": "E6ptd6PVi4wLrxL6tkn97hsZKxMA4xDc679wwGj4924Z"
+  },
+  {
+    "emailAddress": "data.mail.wild@gmail.com",
+    "walletAddress": "7aDj6awoKHyupg6ttTVzadVWhUYmj4JNEzTSLYtvvyQJ"
+  },
+  {
+    "emailAddress": "lykacutey2012@gmail.com",
+    "walletAddress": "9oYSqpyD89QCdNJ9uQe5CSBkQNP1H44sweDq9hqg8QQ8"
+  },
+  {
+    "emailAddress": "shehreyar@salusec.io",
+    "walletAddress": "HRB85kMRVFeLq3YNAAErjhUDnMywe6oDJsJmjBMJaokb"
+  },
+  {
+    "emailAddress": "jonathan@iterativelaw.com",
+    "walletAddress": "CzHDKS6hhncGJKeikYuE7nVEDKSAA37a3Wfo4La6Sgd7"
+  },
+  {
+    "emailAddress": "sebtec1212@gmail.com",
+    "walletAddress": "2pgvagqTzFawNYtbkyLTKVyNfZKVjhUqXmvsb27qqSN9"
+  },
+  {
+    "emailAddress": "archzzz@inbox.lv",
+    "walletAddress": "CwEZj7qHJwsJteruH6eAjCvoUUNXuBmE4iCh8khJ1xVU"
+  },
+  {
+    "emailAddress": "dannyd3x@gmail.com",
+    "walletAddress": "842JiQoVRZjUrZTgrtHz5vrq27TYW2i4ikZvd1nEns3K"
+  },
+  {
+    "emailAddress": "rikinparekh3478@gmail.com",
+    "walletAddress": "CRuQqzMjr3KDU9rpjLyGXEHQ2kFHp9j6wLHSeEQgYbnh"
+  },
+  {
+    "walletAddress": "DuWjUgYPRJAdEKKkY8KNpyqNsTEiMi2oj7g8W3pLwW93"
+  },
+  {
+    "emailAddress": "faizan224714@gmail.com",
+    "walletAddress": "BGb379uusfLDFQfJLdqSVTs5onZSpwTmy1K8P2CAwF6J"
+  },
+  {
+    "emailAddress": "wowdominys@gmail.com",
+    "walletAddress": "JDYfU5Q7mwfsgpqtxGRghbTBXtSP7wM5DQRE9cKSq83Z"
+  },
+  {
+    "emailAddress": "zeaara8@gmail.com",
+    "walletAddress": "7aWun13RhQHPW5bP1UFrEofZfQkW3uPnuosK19emSabS"
+  },
+  {
+    "emailAddress": "eyjafjallajoskull@gmail.com",
+    "walletAddress": "BRBsn2PkSR91p7owE7Smw1EJXJ8jr4Nhva63hGdQjFTh"
+  },
+  {
+    "emailAddress": "bag4state@gmail.com",
+    "walletAddress": "58BzHNN1kSxic1D3JUFxBoyCzSkqxLX7vpCARkCRm1sk"
+  },
+  {
+    "emailAddress": "lightmorning46@gmail.com",
+    "walletAddress": "GU4R4TtM6X9Zxc8wWvuHr3MyfeV2a9yU1dmKixZw1cXR"
+  },
+  {
+    "emailAddress": "tusolapuc.qehanupo@rungel.net",
+    "walletAddress": "EPs55k7jc3KfmZ8Q7Yisk2ivzavS1ZMZMeawR5B3SETp"
+  },
+  {
+    "emailAddress": "haroldtiansheng@gmail.com",
+    "walletAddress": "2j9x95nPav6pAgJh6cqGMhNxVZaZRMpN9pASyaevcQTQ"
+  },
+  {
+    "emailAddress": "tjeverding13@gmail.com",
+    "walletAddress": "HeVqESVPpHEwFZpTiNnCF4qojNr1mHXXLaRwuoJtcP2b"
+  },
+  {
+    "emailAddress": "emzeyy.mz@gmail.com",
+    "walletAddress": "EUEZfB3QX5tDR47r2N4NtDzd6VBdf5HTz7o5C6xYBXQ8"
+  },
+  {
+    "emailAddress": "av.yigitdincsoy@gmail.com",
+    "walletAddress": "BzPnjC1KBPZUuWPEpw2hrzGXZ5m96FbumTLJszKRRx7D"
+  },
+  {
+    "emailAddress": "usman.razaq@gmail.com",
+    "walletAddress": "GNG6qubC2DafAB4xUMPGk2WfFroVj5a5Kna222f2PGnv"
+  },
+  {
+    "emailAddress": "paco@metex.co",
+    "walletAddress": "7Rc68fjD9cddNstoMfNQQcV5npyUe6NssgHeMhBytcAw"
+  },
+  {
+    "emailAddress": "kostyacrypto@gmail.com",
+    "walletAddress": "DavUUAV8ghhJh266isudYLtFQvVn4LFWSRw2agydXxgj"
+  },
+  {
+    "emailAddress": "swarnabhasinha@gmail.com",
+    "walletAddress": "9fcVtX3pYcwAnancPHnaad5Mc5WnfaVncEaM7oEM3tzc"
+  },
+  {
+    "emailAddress": "miydesorku@gufum.com",
+    "walletAddress": "GfpoEAksEYTmJXjv1jvxongQT8PEGKcrWASq6mDAnN7R"
+  },
+  {
+    "emailAddress": "sergpsy00@gmail.com",
+    "walletAddress": "F4uqZETrHZoZ6V8BB4GbiCceeKxEK98aNZmCNhcBqgmP"
+  }
+]
