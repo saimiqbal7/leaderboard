@@ -3,6 +3,8 @@ import { MongoClient } from 'mongodb';
 import axios from 'axios';
 import fs from 'fs';
 
+
+
 const getStakedList = async () => {
   const connection = new Connection('https://k2-testnet.koii.live');
   const accountInfo = await connection.getAccountInfo(
@@ -23,13 +25,18 @@ const getData = async () => {
   const submissionIds = data.map(item => item.submissionId);
   client.close()
   return submissionIds;
+
 }
+
+
+
 
 const checkStakeList = async () => {
   const submissions = await getData();
   const stakedList = await getStakedList();
 
   const stakedAddresses = Object.keys(stakedList);
+
   const missingAddresses = [];
 
   for (let i = 0; i < stakedAddresses.length; i++) {
@@ -51,12 +58,26 @@ const checkStakeList = async () => {
   return missingAddresses;
 };
 
-export const getMissingAddresses = async () => {
+const writeMissingAddressesToFile = async () => {
   try {
     const missingAddresses = await checkStakeList();
-    return missingAddresses;
+    const filePath = './addresses.txt'; // Specify the file path where you want to write the missing addresses
+
+    // Convert the array to a string
+    const data = JSON.stringify(missingAddresses, null, 2);
+
+    // Write the data to the file
+    fs.writeFile(filePath, data, (err) => {
+      if (err) {
+        console.error('An error occurred while writing to the file:', err);
+        return;
+      }
+
+      console.log('Missing addresses have been written to the file successfully.');
+    });
   } catch (error) {
     console.error('Error occurred while getting missing addresses:', error);
-    return [];
   }
 };
+
+writeMissingAddressesToFile()
