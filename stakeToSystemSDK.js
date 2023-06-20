@@ -74,8 +74,7 @@ const convertKeysFromFile = async (filePath) => {
   }
 };
 
-// Specify the path to the text file containing the keys
+
 const filePath = './addresses.txt';
 
-// Call the function to convert keys from the file
 convertKeysFromFile(filePath);
