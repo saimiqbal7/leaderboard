@@ -24,3 +24,4 @@ const function2 = () => {
   console.log('Function 2:', addresses);
 };
 
+console.log("fin")
